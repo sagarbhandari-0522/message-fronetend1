@@ -17,8 +17,8 @@ function NumberSumUp(props) {
     function calc()
     {
             let data = {
-              "start": startNum,
-              "end": endNum
+              "start":Number(startNum),
+              "end": Number(endNum)
             };
             let config = {
               method: 'post',
