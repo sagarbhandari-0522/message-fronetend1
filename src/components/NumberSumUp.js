@@ -83,7 +83,7 @@ function NumberSumUp(props) {
         let config = {
             method: 'post',
             maxBodyLength: Infinity,
-            url: BaseUrl + 'chat/sum_numbers/',
+            url: BaseUrl + '/chat/sum_numbers/',
             headers: {
                 'Content-Type': 'application/json'
             },
